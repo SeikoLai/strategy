@@ -25,5 +25,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)textFieldDidEndEditing:(UITextField *)textField
+{
+    if ([textField isKindOfClass:[CustomTextField class]]) {
+        [(CustomTextField *)textField validate];
+    }
+}
 
 @end

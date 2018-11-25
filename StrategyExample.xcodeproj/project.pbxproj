@@ -15,6 +15,11 @@
 		B748436C206F239A00A0B25B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B748436B206F239A00A0B25B /* main.m */; };
 		B7484376206F239A00A0B25B /* StrategyExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7484375206F239A00A0B25B /* StrategyExampleTests.m */; };
 		B7484381206F239A00A0B25B /* StrategyExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7484380206F239A00A0B25B /* StrategyExampleUITests.m */; };
+		B7484390206F23B100A0B25B /* InputValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = B748438F206F23B100A0B25B /* InputValidator.m */; };
+		B7484393206F24EC00A0B25B /* NumericInputValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = B7484392206F24EC00A0B25B /* NumericInputValidator.m */; };
+		B748439C206F2A1600A0B25B /* AlphaInputValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = B748439B206F2A1600A0B25B /* AlphaInputValidator.m */; };
+		B748439F206F2CA200A0B25B /* CustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = B748439E206F2CA200A0B25B /* CustomTextField.m */; };
+		B78EA81820CA7D5900779E82 /* YSDTDiscount.m in Sources */ = {isa = PBXBuildFile; fileRef = B78EA81720CA7D5900779E82 /* YSDTDiscount.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,16 @@
 		B748437C206F239A00A0B25B /* StrategyExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrategyExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7484380206F239A00A0B25B /* StrategyExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StrategyExampleUITests.m; sourceTree = "<group>"; };
 		B7484382206F239A00A0B25B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B748438E206F23B100A0B25B /* InputValidator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InputValidator.h; sourceTree = "<group>"; };
+		B748438F206F23B100A0B25B /* InputValidator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InputValidator.m; sourceTree = "<group>"; };
+		B7484391206F24EC00A0B25B /* NumericInputValidator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NumericInputValidator.h; sourceTree = "<group>"; };
+		B7484392206F24EC00A0B25B /* NumericInputValidator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NumericInputValidator.m; sourceTree = "<group>"; };
+		B748439A206F2A1600A0B25B /* AlphaInputValidator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlphaInputValidator.h; sourceTree = "<group>"; };
+		B748439B206F2A1600A0B25B /* AlphaInputValidator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlphaInputValidator.m; sourceTree = "<group>"; };
+		B748439D206F2CA200A0B25B /* CustomTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTextField.h; sourceTree = "<group>"; };
+		B748439E206F2CA200A0B25B /* CustomTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTextField.m; sourceTree = "<group>"; };
+		B78EA81620CA7D5900779E82 /* YSDTDiscount.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YSDTDiscount.h; sourceTree = "<group>"; };
+		B78EA81720CA7D5900779E82 /* YSDTDiscount.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSDTDiscount.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +125,16 @@
 				B7484367206F239A00A0B25B /* LaunchScreen.storyboard */,
 				B748436A206F239A00A0B25B /* Info.plist */,
 				B748436B206F239A00A0B25B /* main.m */,
+				B748438E206F23B100A0B25B /* InputValidator.h */,
+				B748438F206F23B100A0B25B /* InputValidator.m */,
+				B7484391206F24EC00A0B25B /* NumericInputValidator.h */,
+				B7484392206F24EC00A0B25B /* NumericInputValidator.m */,
+				B748439A206F2A1600A0B25B /* AlphaInputValidator.h */,
+				B748439B206F2A1600A0B25B /* AlphaInputValidator.m */,
+				B748439D206F2CA200A0B25B /* CustomTextField.h */,
+				B748439E206F2CA200A0B25B /* CustomTextField.m */,
+				B78EA81620CA7D5900779E82 /* YSDTDiscount.h */,
+				B78EA81720CA7D5900779E82 /* YSDTDiscount.m */,
 			);
 			path = StrategyExample;
 			sourceTree = "<group>";
@@ -266,7 +291,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7484361206F239A00A0B25B /* ViewController.m in Sources */,
+				B7484390206F23B100A0B25B /* InputValidator.m in Sources */,
+				B748439C206F2A1600A0B25B /* AlphaInputValidator.m in Sources */,
+				B7484393206F24EC00A0B25B /* NumericInputValidator.m in Sources */,
+				B748439F206F2CA200A0B25B /* CustomTextField.m in Sources */,
 				B748436C206F239A00A0B25B /* main.m in Sources */,
+				B78EA81820CA7D5900779E82 /* YSDTDiscount.m in Sources */,
 				B748435E206F239A00A0B25B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

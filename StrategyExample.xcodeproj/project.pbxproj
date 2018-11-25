@@ -19,7 +19,6 @@
 		B7484393206F24EC00A0B25B /* NumericInputValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = B7484392206F24EC00A0B25B /* NumericInputValidator.m */; };
 		B748439C206F2A1600A0B25B /* AlphaInputValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = B748439B206F2A1600A0B25B /* AlphaInputValidator.m */; };
 		B748439F206F2CA200A0B25B /* CustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = B748439E206F2CA200A0B25B /* CustomTextField.m */; };
-		B78EA81820CA7D5900779E82 /* YSDTDiscount.m in Sources */ = {isa = PBXBuildFile; fileRef = B78EA81720CA7D5900779E82 /* YSDTDiscount.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,8 +63,6 @@
 		B748439B206F2A1600A0B25B /* AlphaInputValidator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlphaInputValidator.m; sourceTree = "<group>"; };
 		B748439D206F2CA200A0B25B /* CustomTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTextField.h; sourceTree = "<group>"; };
 		B748439E206F2CA200A0B25B /* CustomTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTextField.m; sourceTree = "<group>"; };
-		B78EA81620CA7D5900779E82 /* YSDTDiscount.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YSDTDiscount.h; sourceTree = "<group>"; };
-		B78EA81720CA7D5900779E82 /* YSDTDiscount.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSDTDiscount.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,8 +130,6 @@
 				B748439B206F2A1600A0B25B /* AlphaInputValidator.m */,
 				B748439D206F2CA200A0B25B /* CustomTextField.h */,
 				B748439E206F2CA200A0B25B /* CustomTextField.m */,
-				B78EA81620CA7D5900779E82 /* YSDTDiscount.h */,
-				B78EA81720CA7D5900779E82 /* YSDTDiscount.m */,
 			);
 			path = StrategyExample;
 			sourceTree = "<group>";
@@ -296,7 +291,6 @@
 				B7484393206F24EC00A0B25B /* NumericInputValidator.m in Sources */,
 				B748439F206F2CA200A0B25B /* CustomTextField.m in Sources */,
 				B748436C206F239A00A0B25B /* main.m in Sources */,
-				B78EA81820CA7D5900779E82 /* YSDTDiscount.m in Sources */,
 				B748435E206F239A00A0B25B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
